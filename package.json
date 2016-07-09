@@ -1,0 +1,32 @@
+{
+  "name": "express-react-base",
+  "version": "1.0.0",
+  "description": "Base Express React with webpack",
+  "main": "index.js",
+  "scripts": {
+    "production": "webpack -p",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://imchuck@github.com/imchuck/express-react-base.git"
+  },
+  "author": "Chuck Cruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imchuck/express-react-base/issues"
+  },
+  "homepage": "https://github.com/imchuck/express-react-base#readme",
+  "dependencies": {
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-react": "^6.11.1",
+    "html-webpack-plugin": "^2.22.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
