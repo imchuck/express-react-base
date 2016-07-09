@@ -1,5 +1,5 @@
 # express-react-base
-Base Express React with webpack
+Base Express React with webpack (only for dev)
 
 ### Instructions
 
